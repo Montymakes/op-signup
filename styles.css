@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: 'dayposterblackregular';
+    src: url('fonts/daypbl__-webfont.woff2') format('woff2'),
+         url('fonts/daypbl__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    font-size: 12px;
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(186, 240, 237);
+    background-image: url(img/shubham-dhage-KRXJWZHaaWA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-container {
+    background-color: rgba(55, 68, 107, 0.507);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: min-content;
+}
+
+#logo {
+    width: 150px;
+    height: fit-content;
+}
+
+h1 {
+    font-family: 'dayposterblackregular', sans-serif;
+    font-size: 6rem;
+    color: white;
+}
+
+#credit {
+    color: black;
+    font-size: 1rem;
+    align-self: end;
+    width: 100%;
+    height: min-content;
+}
+
+#credit a {
+    color:#803063;
+}
+
+#main {
+    width: 60%;
+    display: flex;
+    background-color: #f8f3f9;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5%;
+}
+
+p, h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-weight: bold;
+}
+
+button {
+    background-color: #803063;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+h2 {
+    width: 100%;
+}
+
+input, label {
+    width: 50%;
+}
+
+#login-link  a{
+    color:#803063
+}
