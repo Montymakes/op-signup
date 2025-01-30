@@ -1,4 +1,4 @@
-
+/* Root */
 @font-face {
     font-family: 'dayposterblackregular';
     src: url('fonts/daypbl__-webfont.woff2') format('woff2'),
@@ -25,6 +25,8 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+/* Header */
 
 header {
     width: 40%;
@@ -72,21 +74,29 @@ h1 {
     color:#803063;
 }
 
+/* Main Content */
+
 #main {
     width: 60%;
     display: flex;
     background-color: #f8f3f9;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    padding: 5%;
 }
 
-p, h2 {
-    font-size: 2rem;
+/* Call to Action */
+#call-to-action {
+    padding: 0 10% 0 5%;
 }
 
-p {
+#call-to-action p, #call-to-action h2 {
+    font-size: 1.8rem;
     font-weight: bold;
+}
+
+#call-to-action p:first-child {
+    margin-bottom: 1.5rem;
 }
 
 button {
@@ -98,6 +108,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    background-color: white;
 }
 
 h2 {
