@@ -95,6 +95,7 @@ Main Content
     background-color: #f8f3f9;
     flex-wrap: wrap;
     align-items: center;
+    padding: 5% 0;
 }
 
 /* Call to Action */
@@ -123,11 +124,6 @@ form {
 button, input, label {
     font-family: inherit;
     font-size: 100%;
-}
-
-button {
-    background-color: #803063;
-    color: white;
 }
 
 #form-content {
@@ -174,8 +170,28 @@ button {
 }
 
 
-
-#login-link  a{
-    color:#803063
+/* Create Account / Login */
+#login {
+    font-size: 1.5rem;
+    padding: 0 10% 0 5%;
+    margin-top:-50px;
 }
 
+button {
+    background-color: #803063;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+#login a{
+    color:#803063;
+    font-weight: bold;
+    text-decoration: none;
+}
